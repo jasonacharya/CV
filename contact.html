@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill the form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>My Contact Details</h2>
+    <p>Address: Hetauda-4, Makawanpur</p>
+    <p>Email address: acharyajeshan@gmail.com</p>
+    <p>Phone number: 9845738166</p>
+    <hr>
+
+    <h2>Your Details</h2>
+    <form action="mailto:acharyajeshan@gmail.com" method="post" enctype="text/plain">
+        <label for="name"> Your Name</label>
+        <div>
+            <input type="text" name="Your Name" id="name">
+        </div>
+        <br>
+        <label for="number">Your Phone Number</label>
+        <div>
+            <input type="text" name="Your Phone Number" id="number">
+        </div>
+        <br>
+        <label for="email">Your Email</label>
+        <div>
+            <input type="email" name="Your Email" id="email">
+        </div>
+        <br>
+        <label for="Your message">Your message</label>
+        <div> 
+            <textarea name="Your Message" rows="4" cols="20"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </form>
+        
